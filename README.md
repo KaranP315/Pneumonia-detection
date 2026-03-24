@@ -1,10 +1,10 @@
-# 🫁 Pneumonia Detection from Chest X-Rays
+#  Pneumonia Detection from Chest X-Rays
 
 A deep learning system that automatically detects pneumonia from chest X-ray images. Built with TensorFlow and Streamlit, this project compares a **custom CNN** against **EfficientNetB0 transfer learning** and includes **Grad-CAM visual explanations** so you can see *exactly* what the model is looking at.
 
 ---
 
-## ✨ What This Project Does
+##  What This Project Does
 
 Ever wondered how AI can assist radiologists in spotting pneumonia? This project takes a chest X-ray as input and tells you whether it shows signs of pneumonia — along with a confidence score and a heatmap that highlights the suspicious regions. No medical degree required to understand the output.
 
@@ -16,7 +16,7 @@ Ever wondered how AI can assist radiologists in spotting pneumonia? This project
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 Pneumonia-detection/
@@ -38,7 +38,7 @@ Pneumonia-detection/
 
 ---
 
-## 🧠 Models
+##  Models
 
 ### 1. Baseline CNN
 A custom convolutional neural network built from scratch:
@@ -57,7 +57,7 @@ Leverages a pre-trained EfficientNetB0 backbone:
 
 ---
 
-## 🔍 Key Features
+##  Key Features
 
 | Feature | Details |
 |---|---|
@@ -70,7 +70,7 @@ Leverages a pre-trained EfficientNetB0 backbone:
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 This project uses the [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) dataset from Kaggle.
 
@@ -92,7 +92,7 @@ The dataset contains 5,863 chest X-ray images across two categories. The trainin
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Python 3.9+
@@ -138,7 +138,7 @@ python -m src.predict --image path/to/xray.jpg --model models/efficientnet_trans
 
 ---
 
-## 🔬 How Grad-CAM Works
+##  How Grad-CAM Works
 
 Grad-CAM (Gradient-weighted Class Activation Mapping) answers the question: *"What part of the image made the model decide this way?"*
 
@@ -151,7 +151,7 @@ Bright regions in the heatmap = areas the model relied on most. For pneumonia ca
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **TensorFlow / Keras** — Model building, training, and inference
 - **EfficientNetB0** — Pre-trained backbone for transfer learning
@@ -163,7 +163,7 @@ Bright regions in the heatmap = areas the model relied on most. For pneumonia ca
 
 ---
 
-## 📁 Pipeline Overview
+##  Pipeline Overview
 
 ```
 Chest X-Ray Image
@@ -195,19 +195,19 @@ Chest X-Ray Image
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 This project is built for **educational and demonstration purposes only**. It is not a substitute for professional medical diagnosis. Always consult a qualified healthcare provider for medical advice.
 
 ---
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Found a bug or want to improve something? Feel free to open an issue or submit a pull request. Contributions are always welcome.
 
